@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	mi "github.com/adamwalach/go-openvpn/server/mi"
+	mi "github.com/grid-x/go-openvpn/server/mi"
 	"github.com/stretchr/testify/assert"
 )
 

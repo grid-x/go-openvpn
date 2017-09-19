@@ -1,0 +1,14 @@
+package: github.com/grid-x/go-openvpn
+import:
+- package: github.com/sirupsen/logrus
+  version: 89742aefa4b206dcf400792f3bd35b542998eb3b
+testImport:
+- package: github.com/grid-x/go-openvpn
+  subpackages:
+  - client/config
+  - server/config
+  - server/mi
+- package: github.com/stretchr/testify
+  version: ~1.1.4
+  subpackages:
+  - assert
